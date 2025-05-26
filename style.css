@@ -1,0 +1,72 @@
+.single_add_to_cart_button:disabled {
+    background: gray;
+    cursor: not-allowed;
+}
+
+.calendar-table {
+	width: 265px !important;
+	height: 290px;
+	font-size: 11em !important;
+}
+
+.drp-calendar {
+	max-width: 275px !important;
+	width: 275px !important;
+	height: 290px;
+}
+
+.cancelBtn, .applyBtn{
+	align-content: center !important;
+	margin: 10px 0px;
+	padding: 10px !important;
+}
+
+.table-condensed{
+	min-width: 0px !important;
+	min-height: 0px !important;
+	width: 100px !important;
+	height: 100px !important;
+	transform: scale(0.6);
+	transform-origin: top left;
+}
+
+.monthselect, .yearselect{
+	width: 100% !important;
+	font-size: 1em !important;
+	text-align: center;
+}
+
+.table-condensed > tbody>  tr > td{
+	padding: 15px 10px !important;
+	font-size: 0.15em !important;	
+}
+
+.table-condensed > thead>  tr > th{
+	padding: 15px 15px !important;
+	font-size: 0.15em !important;	
+}
+
+.disabled{
+	background-color: #f2f4f4!important;
+	color: black !important;
+}
+
+.available{
+		background-color: #e59866
+ !important;
+		font-weight: 700;
+	color: white;
+}
+
+.available:hover{
+	background-color: #f5cba7
+ !important;
+		font-weight: 700;
+	color: white
+}
+
+.active{
+	background-color: #f5cba7
+ !important;
+	color: black !important;
+}
